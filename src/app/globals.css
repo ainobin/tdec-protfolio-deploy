@@ -1,0 +1,165 @@
+@import "tailwindcss";
+
+/* Line clamp utility classes for text truncation */
+.line-clamp-1 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+}
+
+.line-clamp-2 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+.line-clamp-3 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --primary: #0066cc;
+  --secondary: #00a86b;
+  --accent: #f59e0b;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-noto-serif-bengali);
+  --font-mono: var(--font-geist-mono);
+  --font-geist: var(--font-geist-sans);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-noto-serif-bengali), system-ui, -apple-system, sans-serif;
+}
+
+/* Utility class for explicitly using Bengali Serif font */
+.font-bengali {
+  font-family: var(--font-noto-serif-bengali), serif;
+}
+
+/* English text fallback if needed */
+.font-english {
+  font-family: var(--font-geist-sans), system-ui, -apple-system, sans-serif;
+}
+
+/* Additional TailwindCSS utilities */
+.line-clamp-1 {
+  display: -webkit-box;
+  line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.line-clamp-2 {
+  display: -webkit-box;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.line-clamp-3 {
+  display: -webkit-box;
+  line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Smooth scrolling */
+/* html {
+  scroll-behavior: smooth;
+} */
+
+/*
+/* Global Text Overflow Prevention */
+/* * {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  hyphens: auto;
+} */
+
+/* Prevent horizontal overflow globally */
+/* body, html {
+  overflow-x: hidden;
+} */
+
+/* Flex containers should wrap by default */
+/* .flex {
+  flex-wrap: wrap;
+} */
+
+/* Grid containers should handle overflow properly */
+/* .grid {
+  min-width: 0;
+} */
+
+/* Text elements should break properly */
+/* p, span, div, h1, h2, h3, h4, h5, h6 {
+  word-break: break-word;
+  overflow-wrap: break-word;
+  max-width: 100%;
+} */
+
+/* Tables should handle overflow */
+/* table {
+  table-layout: fixed;
+  width: 100%;
+}
+
+td, th {
+  word-break: break-word;
+  overflow-wrap: break-word;
+  max-width: 0;
+} */
+
+/* Input and textarea overflow prevention */
+/* input, textarea, select {
+  max-width: 100%;
+} */
+
+/* Utility classes for text overflow */
+/* .text-ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.text-break {
+  word-break: break-all;
+  overflow-wrap: break-word;
+}
+
+.text-wrap {
+  white-space: normal;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+} */
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
