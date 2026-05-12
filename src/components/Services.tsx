@@ -7,18 +7,27 @@ import Image from 'next/image';
 
 interface ServicesProps {
   limit?: number;
+  initialData?: Service[];
 }
 
-const Services: React.FC<ServicesProps> = ({ limit }) => {
-  const [services, setServices] = useState<Service[]>([]);
-  const [loading, setLoading] = useState(true);
+const Services: React.FC<ServicesProps> = ({ limit, initialData }) => {
+  const [services, setServices] = useState<Service[]>(
+    initialData ? (limit ? initialData.slice(0, limit) : initialData) : [],
+  );
+  const [loading, setLoading] = useState(initialData === undefined);
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
+    if (initialData !== undefined) {
+      setServices(limit ? initialData.slice(0, limit) : initialData);
+      return;
+    }
+
     const fetchServices = async () => {
       try {
         setLoading(true);
-        const response = await fetch('/api/services');
+        setError(null);
+        const response = await fetch('/api/services', { cache: 'no-store' });
         const data = await response.json();
         
         if (data.success) {
@@ -36,7 +45,7 @@ const Services: React.FC<ServicesProps> = ({ limit }) => {
     };
 
     fetchServices();
-  }, [limit]);
+  }, [initialData, limit]);
 
   return (
     <section id="services" className="p-1 md:p-42 bg-gray-50 overflow-hidden">

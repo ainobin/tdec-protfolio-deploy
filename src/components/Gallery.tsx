@@ -7,18 +7,27 @@ import GalleryGrid from './gallery/GalleryGrid';
 
 interface GalleryProps {
   limit?: number;
+  initialData?: GalleryItem[];
 }
 
-const Gallery: React.FC<GalleryProps> = ({ limit = 8 }) => {
-  const [items, setItems] = useState<GalleryItem[]>([]);
-  const [loading, setLoading] = useState(true);
+const Gallery: React.FC<GalleryProps> = ({ limit = 8, initialData }) => {
+  const [items, setItems] = useState<GalleryItem[]>(
+    initialData ? initialData.slice(0, limit) : [],
+  );
+  const [loading, setLoading] = useState(initialData === undefined);
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
+    if (initialData !== undefined) {
+      setItems(limit ? initialData.slice(0, limit) : initialData);
+      return;
+    }
+
     const fetchGallery = async () => {
       try {
         setLoading(true);
-        const response = await fetch('/api/gallery');
+        setError(null);
+        const response = await fetch('/api/gallery', { cache: 'no-store' });
         const data = await response.json();
         
         if (data.success) {
@@ -36,7 +45,7 @@ const Gallery: React.FC<GalleryProps> = ({ limit = 8 }) => {
     };
 
     fetchGallery();
-  }, [limit]);
+  }, [initialData, limit]);
 
   return (
     <section id="gallery" className="py-16 bg-gray-50">

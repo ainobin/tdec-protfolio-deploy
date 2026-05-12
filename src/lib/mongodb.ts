@@ -12,8 +12,11 @@ const uri = process.env.MONGODB_URI;
 const dbName = process.env.MONGODB_DB_NAME;
 
 const options = {
-  serverSelectionTimeoutMS: 5000,
+  serverSelectionTimeoutMS: 15000,
   connectTimeoutMS: 10000,
+  maxPoolSize: 20,
+  minPoolSize: 2,
+  retryWrites: true,
 };
 
 let client: MongoClient;

@@ -7,6 +7,7 @@ import Link from "next/link";
 
 interface DoctorsProps {
   limit?: number;
+  initialData?: Doctor[];
 }
 
 // Helper to safely format schedules
@@ -100,16 +101,21 @@ const DoctorCard: React.FC<{ doctor: Doctor }> = ({ doctor }) => (
   </div>
 );
 
-const Doctors: React.FC<DoctorsProps> = ({ limit }) => {
-  const [doctors, setDoctors] = useState<Doctor[]>([]);
-  const [loading, setLoading] = useState(true);
+const Doctors: React.FC<DoctorsProps> = ({ limit, initialData }) => {
+  const [doctors, setDoctors] = useState<Doctor[]>(initialData ?? []);
+  const [loading, setLoading] = useState(initialData === undefined);
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
+    if (initialData !== undefined) {
+      return;
+    }
+
     const fetchDoctors = async () => {
       try {
         setLoading(true);
-        const response = await fetch("/api/doctors");
+        setError(null);
+        const response = await fetch("/api/doctors", { cache: "no-store" });
         const data = await response.json();
 
         if (data.success) {
@@ -126,7 +132,7 @@ const Doctors: React.FC<DoctorsProps> = ({ limit }) => {
     };
 
     fetchDoctors();
-  }, []);
+  }, [initialData]);
 
   const featuredDoctor = doctors.find((d) => d.isFeatured);
   const regularDoctors = doctors.filter((d) => !d.isFeatured);
