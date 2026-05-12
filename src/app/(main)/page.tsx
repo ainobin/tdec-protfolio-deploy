@@ -54,10 +54,10 @@ export default async function Home() {
       <AdPopup />
       <Hero />
       <ImageAdsCarousel />
+      <About />
       <Services limit={4} initialData={services} />
       <Doctors limit={5} initialData={doctors} />
       <Gallery limit={4} initialData={gallery} />
-      <About />
       <Contact />
     </main>
   );
