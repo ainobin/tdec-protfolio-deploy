@@ -179,7 +179,7 @@ export default function AboutPage() {
                 <div className="lg:col-span-2 flex justify-center">
                   <div className="relative w-64 h-80 md:w-72 md:h-96 rounded-2xl overflow-hidden shadow-2xl">
                     <Image
-                      src="/images/logo/director.jpg"
+                      src="/images/logo/director.png;"
                       alt="Director"
                       fill
                       className="object-cover"
@@ -304,7 +304,7 @@ export default function AboutPage() {
                 <div className="lg:col-span-2 flex justify-center order-1 lg:order-2">
                   <div className="relative w-64 h-80 md:w-72 md:h-96 rounded-2xl overflow-hidden shadow-2xl">
                     <Image
-                      src="/images/logo/managing_director.jpg"
+                      src="/images/logo/managing_director.png"
                       alt="Managing Director"
                       fill
                       className="object-cover"
