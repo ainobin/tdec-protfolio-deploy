@@ -94,7 +94,7 @@ const DoctorCard: React.FC<{ doctor: Doctor }> = ({ doctor }) => (
               focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-offset-2
               min-h-[44px]"
       >
-        View Profile
+        প্রোফাইল দেখুন
         <span className="text-base md:text-lg">→</span>
       </Link>
     </div>
@@ -153,14 +153,6 @@ const Doctors: React.FC<DoctorsProps> = ({ limit, initialData }) => {
           </h2>
           <p className="text-lg sm:text-xl md:text-2xl font-bengali text-gray-700 mb-3 md:mb-4">
             আমাদের বিশেষজ্ঞ ডাক্তারগণ
-          </p>
-          <p className="text-sm md:text-base lg:text-lg text-gray-600 max-w-2xl mx-auto leading-relaxed break-words">
-            Meet our team of highly qualified and experienced ophthalmologists
-            dedicated to your eye health.
-          </p>
-          <p className="text-sm md:text-base lg:text-lg text-gray-600 max-w-2xl mx-auto leading-relaxed break-words">
-            আপনার চোখের সুস্বাস্থ্যের জন্য নিবেদিতপ্রাণ, আমাদের উচ্চ শিক্ষিত এবং
-            অভিজ্ঞ চক্ষু বিশেষজ্ঞ দলের সাথে পরিচিত হন।
           </p>
         </div>
 
@@ -295,7 +287,7 @@ const Doctors: React.FC<DoctorsProps> = ({ limit, initialData }) => {
                             focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-offset-2
                             min-h-11"
                     >
-                      View Profile
+                      প্রোফাইল দেখুন
                       <span className="text-lg">→</span>
                     </Link>
                   </div>
