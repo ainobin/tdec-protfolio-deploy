@@ -24,15 +24,15 @@ export default function NotFound() {
         </h2>
 
         {/* Description */}
-        <p className="text-lg text-gray-600 mb-4 leading-relaxed">
+        {/* <p className="text-lg text-gray-600 mb-4 leading-relaxed">
           Sorry, the page you're looking for doesn't exist or has been moved. 
           Don't worry, we can help you find what you need.
-        </p>
+        </p> */}
 
-        <p className="text-lg text-gray-600 mb-12 leading-relaxed font-bengali">
+        {/* <p className="text-lg text-gray-600 mb-12 leading-relaxed font-bengali">
           দুঃখিত, আপনি যে পৃষ্ঠাটি খুঁজছেন তা বিদ্যমান নেই বা সরানো হয়েছে। 
           চিন্তা করবেন না, আমরা আপনাকে প্রয়োজনীয় কিছু খুঁজে পেতে সাহায্য করতে পারি।
-        </p>
+        </p> */}
 
         {/* Navigation Buttons */}
         <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
@@ -60,7 +60,7 @@ export default function NotFound() {
         </div>
 
         {/* Helpful Links Section */}
-        <div className="bg-white rounded-xl shadow-lg p-8 mb-8">
+        {/* <div className="bg-white rounded-xl shadow-lg p-8 mb-8">
           <h3 className="text-xl font-bold text-gray-800 mb-2">
             Popular Pages
           </h3>
@@ -103,7 +103,7 @@ export default function NotFound() {
               <p className="text-sm text-gray-600">আমাদের সম্পর্কে</p>
             </Link>
           </div>
-        </div>
+        </div> */}
 
         {/* Error Code */}
         <p className="text-gray-500 text-sm">
