@@ -53,10 +53,13 @@ const Footer = () => {
               </div>
             </div>
 
-            <p className="text-gray-400 text-sm leading-relaxed mb-5 text-center md:text-left break-words line-clamp-3">
-              Your trusted partner for comprehensive eye care and diagnostic
-              services in Trishal.
+            <p className="text-gray-400 text-sm leading-relaxed text-center md:text-left break-words line-clamp-3">
+              Your trusted place for complete eye care and diagnostic services in Trishal.
             </p>
+            <p className="text-gray-400 text-sm leading-relaxed mb-5 text-center md:text-left break-words line-clamp-3">
+              ত্রিশালে চোখের সম্পূর্ণ চিকিৎসা ও পরীক্ষা সেবার বিশ্বস্ত ঠিকানা।
+            </p>
+            
           </div>
 
           {/* Quick Links */}
@@ -113,10 +116,10 @@ const Footer = () => {
               <li className="flex flex-col md:flex-row md:items-start gap-1 md:gap-2">
                 <span>📍</span>
                 <span className="text-gray-400 leading-relaxed break-words">
-                  Trishal Sadar, Mymensingh
+                  Trishal Porabari Road, Trishal Bazar, Trishal, Mymensingh
                   <br />
                   <span className="font-bengali break-words">
-                    ত্রিশাল সদর, ময়মনসিংহ
+                    ত্রিশাল পোড়াবাড়ী রোড, ত্রিশাল বাজার, ত্রিশাল, ময়মনসিংহ
                   </span>
                 </span>
               </li>
@@ -124,25 +127,25 @@ const Footer = () => {
               <li className="flex flex-col md:flex-row md:items-start gap-1 md:gap-2">
                 <span>📞</span>
                 <div className="text-gray-400">
-                  <div>+880 1700-000000</div>
-                  <div>+880 1800-000000</div>
+                  <div>+880 1797-408590</div>
+                  <div>+880 1964-862704</div>
                 </div>
               </li>
 
               <li className="flex flex-col md:flex-row md:items-start gap-1 md:gap-2">
                 <span>📧</span>
                 <span className="text-gray-400 break-all">
-                  info@trishaldecc.com
+                  tdeccenter@gmail.com
                 </span>
               </li>
 
               <li className="flex flex-col md:flex-row md:items-start gap-1 md:gap-2">
                 <span>⏰</span>
                 <span className="text-gray-400">
-                  Sat–Thu: 9AM – 9PM
+                  Everyday: 10AM – 9PM
                   <br />
                   <span className="font-bengali">
-                    শনি–বৃহঃ: ৯AM – ৯PM
+                    প্রতিদিন: ১০AM – ৯PM
                   </span>
                 </span>
               </li>
@@ -178,10 +181,7 @@ const Footer = () => {
       <div className="bg-red-600 py-3 text-center">
         <div className="container mx-auto px-4">
           <p className="text-white font-semibold text-xs sm:text-sm md:text-base leading-relaxed">
-            🚨 24/7 Emergency Eye Care: +880 1700-000000 |
-            <span className="font-bengali ml-1">
-              জরুরী সেবা: +৮৮০ ১৭০০-০০০০০০
-            </span>
+              অ্যাপয়েন্টমেন্টের জন্য কল করুন : +880 1797-408590
           </p>
         </div>
       </div>

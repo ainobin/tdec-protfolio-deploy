@@ -19,9 +19,15 @@ const notoSerifBengali = Noto_Serif_Bengali({
 });
 
 export const metadata = {
-  title: "Trishal Diagnostic and Eye Care Center | ত্রিশাল ডায়াগনস্টিক এন্ড আই কেয়ার সেন্টার",
-  description: "Professional eye care and diagnostic services in Trishal. Expert ophthalmologists, advanced equipment, and comprehensive eye health solutions.",
-  keywords: "eye care, diagnostic center, Trishal, ophthalmology, eye hospital, eye clinic",
+  title:
+    "Trishal Diagnostic and Eye Care Center | ত্রিশাল ডায়াগনস্টিক এন্ড আই কেয়ার সেন্টার",
+  description:
+    "Professional eye care and diagnostic services in Trishal. Expert ophthalmologists, advanced equipment, and comprehensive eye health solutions.",
+  keywords:
+    "eye care, diagnostic center, Trishal, ophthalmology, eye hospital, eye clinic",
+  icons: {
+    icon: "/images/logo/tdecc_logo_withBG.png",
+  },
 };
 
 export default function RootLayout({

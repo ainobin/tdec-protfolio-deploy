@@ -38,7 +38,7 @@ const About = () => {
             {/* Floating Cards */}
             <div className="absolute -bottom-4 -left-4 md:-bottom-8 md:-left-8 bg-blue-600 text-white rounded-2xl p-4 md:p-6 shadow-2xl">
               <div className="text-2xl md:text-3xl lg:text-4xl font-bold">
-                ১৫+
+                ৫+
               </div>
               <div className="text-xs md:text-sm font-bengali">
                 বছরের অভিজ্ঞতা
@@ -46,7 +46,7 @@ const About = () => {
             </div>
             <div className="absolute -top-4 -right-4 md:-top-8 md:-right-8 bg-green-500 text-white rounded-2xl p-4 md:p-6 shadow-2xl">
               <div className="text-2xl md:text-3xl lg:text-4xl font-bold">
-                ৫০K+
+                ৩ হাজার +
               </div>
               <div className="text-xs md:text-sm font-bengali">
                 সন্তুষ্ট রোগী
@@ -56,42 +56,39 @@ const About = () => {
 
           {/* Content Side */}
           <div className="order-1 lg:order-2">
-
             <p className="text-base md:text-lg lg:text-xl text-gray-600 mb-5 md:mb-6 leading-relaxed wrap-break-word">
               Trishal Diagnostic and Eye Care Center has been serving the
-              community for over 15 years with dedication and excellence. We are
-              committed to providing world-class eye care services with
-              compassion and expertise.
+              community for over 5 years with dedication and excellence. We are
+              committed to providing quality diagnostic and eye care services
+              with compassion and expertise.
             </p>
 
             <p className="text-base md:text-lg text-gray-600 mb-6 md:mb-8 font-bengali leading-relaxed wrap-break-word">
-              ত্রিশাল ডায়াগনস্টিক এন্ড আই কেয়ার সেন্টার ১৫ বছরেরও বেশি সময়
-              ধরে নিবেদন এবং উৎকর্ষতার সাথে সম্প্রদায়ের সেবা করে আসছে। আমরা
-              সহানুভূতি এবং দক্ষতার সাথে বিশ্বমানের চক্ষু পরিচর্যা সেবা প্রদানে
-              প্রতিশ্রুতিবদ্ধ।
+              ত্রিশাল ডায়াগনস্টিক অ্যান্ড আই কেয়ার সেন্টার গত ৫ বছর ধরে
+              নিষ্ঠার মাধ্যমে সেবা দিয়ে আসছে। আমরা দক্ষতার সাথে মানসম্মত
+              ডায়াগনস্টিক ও চোখের চিকিৎসা সেবা প্রদান করতে প্রতিশ্রুতিবদ্ধ।
             </p>
 
             {/* Mission & Vision */}
             <div className="space-y-4 md:space-y-5 mb-8 md:mb-10">
               <div className="border-l-4 border-blue-600 pl-4 md:pl-5 py-2">
                 <h4 className="text-lg md:text-xl font-bold text-gray-800 mb-2 wrap-break-word">
-                  Our Mission
+                  আমাদের লক্ষ্য
                 </h4>
                 <p className="text-sm md:text-base text-gray-600 leading-relaxed wrap-break-word">
-                  To provide accessible, affordable, and advanced eye care
-                  services to every individual in our community with compassion
-                  and professionalism.
+                  ত্রিশালের প্রতিটি মানুষের জন্য সহজে পাওয়া যায়, সাশ্রয়ী এবং
+                  আধুনিক চোখের চিকিৎসা সেবা প্রদান করা, যেখানে থাকবে সহানুভূতি ও
+                  পেশাদারিত্ব।
                 </p>
               </div>
 
               <div className="border-l-4 border-green-500 pl-4 md:pl-5 py-2">
                 <h4 className="text-lg md:text-xl font-bold text-gray-800 mb-2 wrap-break-word">
-                  Our Vision
+                  আমাদের রূপকল্প
                 </h4>
                 <p className="text-sm md:text-base text-gray-600 leading-relaxed wrap-break-word">
-                  To be the most trusted and preferred eye care center in
-                  Bangladesh, known for excellence in treatment and patient
-                  satisfaction.
+                  চোখের চিকিৎসায় বাংলাদেশে সবচেয়ে বিশ্বস্ত চিকিৎসা কেন্দ্র
+                  হওয়া, যা উন্নত চিকিৎসা ও রোগীর সন্তুষ্টির জন্য পরিচিত হবে।
                 </p>
               </div>
             </div>
@@ -103,7 +100,7 @@ const About = () => {
                   ✓
                 </span>
                 <span className="text-sm md:text-base text-gray-700">
-                  Advanced Equipment
+                  আধুনিক যন্ত্রপাতি
                 </span>
               </div>
               <div className="flex items-center gap-2 md:gap-3">
@@ -111,7 +108,7 @@ const About = () => {
                   ✓
                 </span>
                 <span className="text-sm md:text-base text-gray-700">
-                  Expert Doctors
+                  অভিজ্ঞ ডাক্তার
                 </span>
               </div>
               <div className="flex items-center gap-2 md:gap-3">
@@ -119,7 +116,7 @@ const About = () => {
                   ✓
                 </span>
                 <span className="text-sm md:text-base text-gray-700">
-                  Affordable Prices
+                  সাশ্রয়ী মূল্য
                 </span>
               </div>
               <div className="flex items-center gap-2 md:gap-3">
@@ -127,7 +124,7 @@ const About = () => {
                   ✓
                 </span>
                 <span className="text-sm md:text-base text-gray-700">
-                  24/7 Emergency
+                  ২৪/৭ জরুরি সেবা
                 </span>
               </div>
             </div>

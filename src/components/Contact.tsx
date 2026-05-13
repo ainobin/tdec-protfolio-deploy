@@ -8,26 +8,25 @@ const Contact = () => {
             যোগাযোগ করুন
           </p>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto wrap-break-word leading-relaxed">
-            Get in touch with us for appointments, inquiries, or any assistance
-            you need.
+            Contact us for appointments, questions, or any help you need.
+          </p>
+          <p className="text-lg text-gray-600 max-w-2xl mx-auto wrap-break-word leading-relaxed">
+            অ্যাপয়েন্টমেন্ট, কোনো প্রশ্ন, বা আপনার প্রয়োজনীয় যেকোনো সহায়তার জন্য আমাদের সাথে যোগাযোগ করুন।
           </p>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           <div>
             <div className="bg-linear-to-br from-blue-50 to-blue-100 rounded-2xl p-8">
-              <h3 className="text-2xl font-bold text-gray-800 mb-6">
-                Get In Touch
-              </h3>
 
               <div className="space-y-6">
                 <div className="flex items-start gap-4">
                   <div className="text-3xl text-blue-600">📍</div>
                   <div>
                     <h4 className="font-bold text-gray-800 mb-1">Address</h4>
-                    <p className="text-gray-600 wrap-break-word">Trishal Sadar, Mymensingh</p>
+                    <p className="text-gray-600 wrap-break-word">Trishal Porabari Road, Trishal Bazar, Trishal, Mymensingh</p>
                     <p className="text-gray-600 font-bengali wrap-break-word">
-                      ত্রিশাল সদর, ময়মনসিংহ
+                      ত্রিশাল পোড়াবাড়ী রোড, ত্রিশাল বাজার, ত্রিশাল, ময়মনসিংহ
                     </p>
                   </div>
                 </div>
@@ -38,18 +37,18 @@ const Contact = () => {
                     <h4 className="font-bold text-gray-800 mb-1">Phone</h4>
                     <p className="text-gray-600">
                       <a
-                        href="tel:+8801700000000"
+                        href="tel:+8801797408590"
                         className="hover:text-blue-600 transition"
                       >
-                        +880 1700-000000
+                        +880 1797-408590
                       </a>
                     </p>
                     <p className="text-gray-600">
                       <a
-                        href="tel:+8801800000000"
+                        href="tel:+8801964862704"
                         className="hover:text-blue-600 transition"
                       >
-                        +880 1800-000000
+                        +880 1964-862704
                       </a>
                     </p>
                   </div>
@@ -59,8 +58,7 @@ const Contact = () => {
                   <div className="text-3xl text-blue-600">📧</div>
                   <div>
                     <h4 className="font-bold text-gray-800 mb-1">Email</h4>
-                    <p className="text-gray-600">info@trishaldecc.com</p>
-                    <p className="text-gray-600">appointment@trishaldecc.com</p>
+                    <p className="text-gray-600">tdeccenter@gmail.com</p>
                   </div>
                 </div>
 
@@ -71,11 +69,10 @@ const Contact = () => {
                       Working Hours
                     </h4>
                     <p className="text-gray-600 wrap-break-word">
-                      Saturday - Thursday: 9:00 AM - 9:00 PM
+                      Everyday: 10:00 AM - 9:00 PM
                     </p>
-                    <p className="text-gray-600 wrap-break-word">Friday: Closed</p>
                     <p className="text-gray-600 font-bengali wrap-break-word">
-                      শনি - বৃহস্পতিবার: সকাল ৯টা - রাত ৯টা
+                      প্রতিদিন: সকাল ১০টা - রাত ৯টা
                     </p>
                   </div>
                 </div>
@@ -83,7 +80,7 @@ const Contact = () => {
 
               <div className="mt-8">
                 <a
-                  href="tel:+8801700000000"
+                  href="tel:+8801797408590"
                   className="inline-flex items-center gap-3 bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-700 transition shadow-lg w-full justify-center"
                 >
                   <span className="text-2xl">📞</span>

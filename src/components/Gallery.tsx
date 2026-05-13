@@ -57,10 +57,10 @@ const Gallery: React.FC<GalleryProps> = ({ limit = 8, initialData }) => {
           </h2>
           <p className="text-2xl font-bengali text-gray-600 mb-2">আমাদের গ্যালারি</p>
           <p className="text-gray-600 max-w-2xl mx-auto wrap-break-word leading-relaxed">
-            Take a look at our modern facilities, advanced equipment, and the caring environment we provide for our patients.
+            See our modern facilities, advanced equipment, and the caring environment we provide for our patients.
           </p>
           <p className="text-gray-500 font-bengali mt-2 wrap-break-word leading-relaxed">
-            আমাদের আধুনিক সুবিধা, উন্নত সরঞ্জাম এবং রোগীদের জন্য যত্নশীল পরিবেশ দেখুন।
+            এক নজরে আমাদের আধুনিক সুবিধা, উন্নত সরঞ্জাম এবং রোগীবান্ধব পরিবেশ দেখুন।
           </p>
         </div>
 
