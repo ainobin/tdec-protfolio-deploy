@@ -9,15 +9,19 @@ export default function AboutPage() {
       <section className="bg-linear-to-br from-blue-600 via-blue-700 to-blue-900 text-white py-16 md:py-24">
         <div className="container mx-auto px-4 text-center">
           <div className="max-w-full mx-auto">
-            <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-4 md:mb-6">About Us</h1>
-            <p className="text-2xl sm:text-3xl md:text-4xl font-bengali mb-4 md:mb-6">আমাদের সম্পর্কে</p>
+            <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-4 md:mb-6">
+              About Us
+            </h1>
+            <p className="text-2xl sm:text-3xl md:text-4xl font-bengali mb-4 md:mb-6">
+              আমাদের সম্পর্কে
+            </p>
             <p className="text-lg md:text-xl text-blue-100 max-w-2xl mx-auto leading-relaxed mb-3">
               Serving our community with dedication, excellence, and compassion
-              for over 15 years.
+              for over 5 years.
             </p>
             <p className="text-base md:text-lg font-bengali text-blue-200 leading-relaxed">
-              ১৫ বছরেরও বেশি সময় ধরে নিবেদন, উৎকর্ষতা এবং সহানুভূতির সাথে আমাদের
-              সম্প্রদায়ের সেবা করছি।
+              আমরা ৫ বছরেরও বেশি সময় ধরে নিষ্ঠা, উৎকর্ষতা এবং আন্তরিকতার সাথে
+              মানুষদের সেবা দিয়ে আসছি।
             </p>
           </div>
         </div>
@@ -43,43 +47,62 @@ export default function AboutPage() {
             {/* Content */}
             <div className="space-y-6 md:space-y-8">
               <p className="text-base md:text-lg lg:text-xl text-gray-600 leading-relaxed md:leading-loose">
-                ত্রিশাল ডায়াগনস্টিক এন্ড আই কেয়ার সেন্টার ২০০৯ সালে ত্রিশালবাসীর স্বাস্থ্য সেবায় 
-                নিবেদিত প্রাণ হিসেবে যাত্রা শুরু করেছিল। আমাদের এই যাত্রা শুরু হয়েছিল একটি ছোট ক্লিনিক 
-                হিসেবে, কিন্তু আজ আমরা পুরো সিলেট বিভাগের অন্যতম সেরা চক্ষু ও ডায়াগনস্টিক সেবা কেন্দ্রে 
-                পরিণত হয়েছি।
+                ত্রিশাল ডায়াগনস্টিক এন্ড আই কেয়ার সেন্টার ২০২১ সালে ময়মনসিংহ
+                জেলার ত্রিশাল উপজেলার মানুষের স্বাস্থ্যসেবায় নিবেদিত প্রাণ
+                হিসেবে যাত্রা শুরু করেছিল। আমাদের এই যাত্রা শুরু হয়েছিল একটি
+                ছোট ক্লিনিক হিসেবে, কিন্তু আজ আমরা ত্রিশাল উপজেলার অন্যতম
+                নির্ভরযোগ্য চক্ষু ও ডায়াগনস্টিক সেবা কেন্দ্রে পরিণত হয়েছি।
               </p>
 
               <p className="text-base md:text-lg lg:text-xl text-gray-600 leading-relaxed md:leading-loose font-bengali">
-                আমরা বিশ্বাস করি যে প্রতিটি রোগীর সাথে সদয় আচরণ এবং মানসম্মত চিকিৎসা প্রদান করা 
-                আমাদের দায়িত্ব। আমাদের উদ্দেশ্য শুধুমাত্র চিকিৎসা প্রদান নয়, বরং রোগীদের সুস্থ জীবন 
-                ফিরিয়ে দেওয়া। আমরা সর্বদা আধুনিক প্রযুক্তি এবং অভিজ্ঞ চিকিৎসকদের মাধ্যমে সর্বোত্তম 
+                আমরা বিশ্বাস করি যে প্রতিটি রোগীর সাথে সদয় আচরণ এবং মানসম্মত
+                চিকিৎসা প্রদান করা আমাদের দায়িত্ব। আমাদের উদ্দেশ্য শুধুমাত্র
+                চিকিৎসা প্রদান নয়, বরং রোগীদের সুস্থ জীবন ফিরিয়ে দেওয়া। আমরা
+                সর্বদা আধুনিক প্রযুক্তি এবং অভিজ্ঞ চিকিৎসকদের মাধ্যমে সর্বোত্তম
                 সেবা নিশ্চিত করতে প্রতিশ্রুতিবদ্ধ।
               </p>
 
               <p className="text-base md:text-lg lg:text-xl text-gray-600 leading-relaxed md:leading-loose">
-                আমাদের কেন্দ্রে সর্বাধুনিক ডায়াগনস্টিক যন্ত্রপাতি রয়েছে যা সঠিক রোগ নির্ণয়ে সহায়তা 
-                করে। অভিজ্ঞ চক্ষু বিশেষজ্ঞ এবং চিকিৎসা পেশাদারদের দল প্রতিটি রোগীকে ব্যক্তিগত মনোযোগ 
-                এবং যত্নের সাথে সেবা প্রদান করেন। আমাদের সাফল্যের মাপকাঠি হলো হাজার হাজার রোগীর 
-                সুস্থতা এবং তাদের আস্থা।
+                আমাদের কেন্দ্রে রয়েছে অত্যাধুনিক ডায়াগনস্টিক যন্ত্রপাতি, যা
+                সঠিক রোগ নির্ণয়ে গুরুত্বপূর্ণ ভূমিকা রাখে। অভিজ্ঞ ডাক্তার এবং
+                মেডিকেল টেকনিশিয়ান নিয়ে একটি দক্ষ দল যারা প্রতিটি রোগীকে
+                ব্যক্তিগতভাবে মনোযোগ ও যত্নের সাথে সেবা প্রদান করেন। আমাদের
+                সাফল্যের মূল ভিত্তি হলো শত শত রোগীর সুস্থতা এবং তাদের অটল আস্থা।
               </p>
 
               {/* Stats */}
               <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6 mt-8 md:mt-12">
                 <div className="bg-linear-to-br from-blue-50 to-white rounded-2xl p-4 md:p-6 text-center shadow-lg">
-                  <div className="text-2xl md:text-4xl font-bold text-blue-600 mb-1">১৫+</div>
-                  <div className="text-xs md:text-sm text-gray-600 font-bengali">বছরের অভিজ্ঞতা</div>
+                  <div className="text-2xl md:text-4xl font-bold text-blue-600 mb-1">
+                    ৫+
+                  </div>
+                  <div className="text-xs md:text-sm text-gray-600 font-bengali">
+                    বছরের অভিজ্ঞতা
+                  </div>
                 </div>
                 <div className="bg-linear-to-br from-green-50 to-white rounded-2xl p-4 md:p-6 text-center shadow-lg">
-                  <div className="text-2xl md:text-4xl font-bold text-green-600 mb-1">৫০,০০০+</div>
-                  <div className="text-xs md:text-sm text-gray-600 font-bengali">সন্তুষ্ট রোগী</div>
+                  <div className="text-2xl md:text-4xl font-bold text-green-600 mb-1">
+                    ৩,০০০+
+                  </div>
+                  <div className="text-xs md:text-sm text-gray-600 font-bengali">
+                    সন্তুষ্ট রোগী
+                  </div>
                 </div>
                 <div className="bg-linear-to-br from-purple-50 to-white rounded-2xl p-4 md:p-6 text-center shadow-lg">
-                  <div className="text-2xl md:text-4xl font-bold text-purple-600 mb-1">২০+</div>
-                  <div className="text-xs md:text-sm text-gray-600 font-bengali">বিশেষজ্ঞ ডাক্তার</div>
+                  <div className="text-2xl md:text-4xl font-bold text-purple-600 mb-1">
+                    ১০+
+                  </div>
+                  <div className="text-xs md:text-sm text-gray-600 font-bengali">
+                    বিশেষজ্ঞ ডাক্তার
+                  </div>
                 </div>
                 <div className="bg-linear-to-br from-orange-50 to-white rounded-2xl p-4 md:p-6 text-center shadow-lg">
-                  <div className="text-2xl md:text-4xl font-bold text-orange-600 mb-1">২৪/৭</div>
-                  <div className="text-xs md:text-sm text-gray-600 font-bengali">জরুরি সেবা</div>
+                  <div className="text-2xl md:text-4xl font-bold text-orange-600 mb-1">
+                    ২৪/৭
+                  </div>
+                  <div className="text-xs md:text-sm text-gray-600 font-bengali">
+                    জরুরি সেবা
+                  </div>
                 </div>
               </div>
             </div>
@@ -100,14 +123,13 @@ export default function AboutPage() {
                 আমাদের লক্ষ্য
               </p>
               <p className="text-gray-600 leading-relaxed mb-3 wrap-break-word">
-                To provide accessible, affordable, and advanced eye care services
-                to every individual in our community with compassion and
-                professionalism.
+                To provide easy, affordable, and modern eye care services for
+                every person in Trishal with compassion and professionalism.
               </p>
               <p className="text-gray-600 font-bengali leading-relaxed wrap-break-word">
-                সহানুভূতি এবং পেশাদারিত্বের সাথে আমাদের সম্প্রদায়ের প্রতিটি
-                ব্যক্তিকে সহজলভ্য, সাশ্রয়ী এবং উন্নত চক্ষু পরিচর্যা সেবা প্রদান
-                করা।
+                ত্রিশালের প্রতিটি মানুষের জন্য সহজে পাওয়া যায়, সাশ্রয়ী এবং
+                আধুনিক চোখের চিকিৎসা সেবা প্রদান করা, যেখানে থাকবে সহানুভূতি ও
+                পেশাদারিত্ব।
               </p>
             </div>
 
@@ -117,7 +139,7 @@ export default function AboutPage() {
                 Our Vision
               </h3>
               <p className="text-lg md:text-xl font-bengali text-green-600 mb-4">
-                আমাদের দৃষ্টিভঙ্গি
+                আমাদের রূপকল্প
               </p>
               <p className="text-gray-600 leading-relaxed mb-3 wrap-break-word">
                 To be the most trusted and preferred eye care center in
@@ -125,8 +147,8 @@ export default function AboutPage() {
                 satisfaction.
               </p>
               <p className="text-gray-600 font-bengali leading-relaxed wrap-break-word">
-                চিকিৎসায় উৎকর্ষতা এবং রোগী সন্তুষ্টির জন্য পরিচিত, বাংলাদেশে
-                সবচেয়ে বিশ্বস্ত এবং পছন্দের চক্ষু পরিচর্যা কেন্দ্র হওয়া।
+                চোখের চিকিৎসায় বাংলাদেশে সবচেয়ে বিশ্বস্ত চিকিৎসা কেন্দ্র হওয়া,
+                যা উন্নত চিকিৎসা ও রোগীর সন্তুষ্টির জন্য পরিচিত হবে।
               </p>
             </div>
           </div>
@@ -143,10 +165,10 @@ export default function AboutPage() {
                 নেতৃত্ব
               </div> */}
               <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-800">
-                Director&apos;s Message
+                Chairman&apos;s Message
               </h2>
               <p className="text-xl sm:text-2xl md:text-3xl font-bengali text-blue-600 mt-2">
-                পরিচালকের বক্তব্য
+                চেয়ারম্যানের বক্তব্য
               </p>
             </div>
 
@@ -169,33 +191,46 @@ export default function AboutPage() {
                 {/* Speech */}
                 <div className="lg:col-span-3">
                   <p className="text-base md:text-lg lg:text-xl text-gray-600 leading-relaxed md:leading-loose mb-4">
-                    প্রিয় রোগী ও অভিভাবকগণ,
-                  </p>
-                  
-                  <p className="text-base md:text-lg lg:text-xl text-gray-600 leading-relaxed md:leading-loose mb-4 font-bengali">
-                    স্বাগতম ত্রিশাল ডায়াগনস্টিক এন্ড আই কেয়ার সেন্টারে। আমি এবং 
-                    আমার টিম প্রতিদিন আপনাদের চক্ষু স্বাস্থ্য রক্ষায় নিবেদিত প্রাণ। 
-                    আমাদের কেন্দ্রে আমরা শুধু চিকিৎসা প্রদান করি না, বরং প্রতিটি 
-                    রোগীর সাথে একটি দীর্ঘস্থায়ী সম্পর্ক তৈরি করি।
+                    আসসালামু আলাইকুম,
                   </p>
 
                   <p className="text-base md:text-lg lg:text-xl text-gray-600 leading-relaxed md:leading-loose mb-4 font-bengali">
-                    আমাদের লক্ষ্য হলো সর্বোত্তম চিকিৎসা সেবা প্রদান করা যা প্রতিটি 
-                    মানুষের কাছে সহজলভ্য। আমরা সর্বদা আধুনিক প্রযুক্তি এবং 
-                    সর্বশেষ চিকিৎসা পদ্ধতি অনুসরণ করি। আমার টিমের প্রতিটি সদস্য 
-                    অভিজ্ঞ এবং প্রশিক্ষিত যাতে আপনি সর্বোত্তম যত্ন পান।
+                    আমাদের ত্রিশাল ডায়াগনস্টিক এন্ড আই কেয়ার সেন্টারের যাত্রা
+                    শুরু হয় ২০২১ সালে একটি সহজ লক্ষ্য নিয়ে — ত্রিশাল ও
+                    আশেপাশের মানুষের জন্য মানসম্মত ও সাশ্রয়ী স্বাস্থ্যসেবা
+                    নিশ্চিত করা। আমরা লক্ষ্য করেছি, অনেক রোগীকে সঠিক পরীক্ষা ও
+                    চোখের চিকিৎসার জন্য দূরে যেতে হতো, যা তাদের জন্য আর্থিক ও
+                    শারীরিকভাবে কষ্টকর ছিল। এই বাস্তবতা থেকেই আমরা এমন একটি
+                    স্বাস্থ্যসেবা কেন্দ্র গড়ে তোলার অনুপ্রেরণা পাই, যেখানে
+                    মানুষ নিজ এলাকার মধ্যেই নির্ভরযোগ্য চিকিৎসা সেবা পেতে পারে।
                   </p>
-
+                  <p className="text-base md:text-lg lg:text-xl text-gray-600 leading-relaxed md:leading-loose mb-4 font-bengali">
+                    একটি ছোট ক্লিনিক থেকে শুরু করে ধাপে ধাপে আজ আমরা কঠোর
+                    পরিশ্রম, নিষ্ঠা এবং কমিউনিটির আস্থার মাধ্যমে ত্রিশাল উপজেলার
+                    একটি নির্ভরযোগ্য ডায়াগনস্টিক ও আই কেয়ার সেন্টারে পরিণত
+                    হয়েছি। স্বাস্থ্যসেবা একটি ধারাবাহিক উন্নতির প্রক্রিয়া।
+                    আমরা সবসময় আধুনিক যন্ত্রপাতি ব্যবহার, মানসম্মত সেবা নিশ্চিত
+                    করা এবং প্রতিটি রোগীর সর্বোচ্চ যত্ন নেওয়ার উপর গুরুত্ব দিই।
+                    আমাদের অভিজ্ঞ ডাক্তার, মেডিকেল টেকনিশিয়ান এবং
+                    স্বাস্থ্যকর্মীরা সততা, সহানুভূতি ও দায়িত্ববোধ নিয়ে একসাথে
+                    কাজ করেন। আমরা বিশ্বাস করি, সঠিক আন্তরিকতা ও যত্নের মাধ্যমেই
+                    স্বাস্থ্যসেবায় প্রকৃত সাফল্য অর্জন করা যায়।
+                  </p>
                   <p className="text-base md:text-lg lg:text-xl text-gray-600 leading-relaxed md:leading-loose mb-6 font-bengali">
-                    আমি আপনাদের আশ্বাস দিচ্ছি যে আমরা আপনাদের চক্ষু স্বাস্থ্যের 
-                    জন্য সর্বোচ্চ চেষ্টা করব। আমাদের সাথে যুক্ত থাকুন এবং 
-                    আমাদের সেবা গ্রহণ করুন।
+                    আমি আপনাদের আশ্বাস দিচ্ছি যে আমরা আপনাদের সুস্বাস্থ্যের জন্য
+                    সর্বোচ্চ চেষ্টা করব। আমাদের সাথে থাকুন এবং সেবা গ্রহণ করুন।
                   </p>
 
                   <div className="border-t pt-4">
-                    <p className="text-lg md:text-xl font-bold text-gray-800">Dr. [Name]</p>
-                    <p className="text-base font-bengali text-blue-600">পরিচালক</p>
-                    <p className="text-sm text-gray-500">Trishal Diagnostic & Eye Care Center</p>
+                    <p className="text-lg md:text-xl font-bold text-gray-800">
+                      অধ্যাপক মো: খবিরুজ্জমান
+                    </p>
+                    <p className="text-base font-bengali text-blue-600">
+                      পরিচালক
+                    </p>
+                    <p className="text-sm text-gray-500">
+                      ত্রিশাল ডায়াগনস্টিক এন্ড আই কেয়ার সেন্টার
+                    </p>
                   </div>
                 </div>
               </div>
@@ -227,35 +262,41 @@ export default function AboutPage() {
                 {/* Speech - First on desktop */}
                 <div className="lg:col-span-3 order-2 lg:order-1">
                   <p className="text-base md:text-lg lg:text-xl text-gray-600 leading-relaxed md:leading-loose mb-4">
-                    Dear Valued Patients & Guardians,
-                  </p>
-                  
-                  <p className="text-base md:text-lg lg:text-xl text-gray-600 leading-relaxed md:leading-loose mb-4 font-bengali">
-                    ত্রিশাল ডায়াগনস্টিক এন্ড আই কেয়ার সেন্টারের পক্ষ থেকে 
-                    আপনাদের স্বাগতম। আমি এই প্রতিষ্ঠানের ব্যবস্থাপনা পরিচালক হিসেবে 
-                    আপনাদের জানাই আন্তরিক অভিনন্দন। গত ১৫ বছরে আমরা ত্রিশাল ও এর 
-                    পার্শ্ববর্তী এলাকায় স্বাস্থ্য সেবার একটি নির্ভরযোগ্য নাম হয়ে 
-                    উঠেছি।
+                    আসসালামু আলাইকুম,
                   </p>
 
                   <p className="text-base md:text-lg lg:text-xl text-gray-600 leading-relaxed md:leading-loose mb-4 font-bengali">
-                    আমাদের প্রতিষ্ঠানে সর্বাধুনিক ডায়াগনস্টিক যন্ত্র রয়েছে যা 
-                    নির্ভুল রোগ নির্ণয়ে সহায়তা করে। আমরা সবসময় রোগীর সন্তুষ্টিকে 
-                    প্রাধান্য দিই। আমাদের লক্ষ্য শুধু চিকিৎসা প্রদান নয়, বরং 
-                    সাশ্রয়ী মূল্যে মানসম্মত সেবা প্রদান করা যা প্রতিটি পরিবারের 
-                    কাছে সহজলভ্য।
+                    ত্রিশাল ডায়াগনস্টিক এন্ড আই কেয়ার সেন্টারের পক্ষ থেকে
+                    আপনাদের স্বাগতম। আমি এই প্রতিষ্ঠানের ব্যবস্থাপনা পরিচালক
+                    হিসেবে আপনাদের জানাই আন্তরিক অভিনন্দন। গত ৫ বছরে আমরা
+                    ত্রিশাল ও এর পার্শ্ববর্তী এলাকায় স্বাস্থ্য সেবার একটি
+                    নির্ভরযোগ্য নাম হয়ে উঠেছি।
+                  </p>
+
+                  <p className="text-base md:text-lg lg:text-xl text-gray-600 leading-relaxed md:leading-loose mb-4 font-bengali">
+                    আমাদের প্রতিষ্ঠানে সর্বাধুনিক ডায়াগনস্টিক যন্ত্র রয়েছে যা
+                    নির্ভুল রোগ নির্ণয়ে সহায়তা করে। আমরা সবসময় রোগীর
+                    সন্তুষ্টিকে প্রাধান্য দিই। আমাদের লক্ষ্য শুধু চিকিৎসা প্রদান
+                    নয়, বরং সাশ্রয়ী মূল্যে মানসম্মত সেবা প্রদান করা যা প্রতিটি
+                    পরিবারের কাছে সহজলভ্য।
                   </p>
 
                   <p className="text-base md:text-lg lg:text-xl text-gray-600 leading-relaxed md:leading-loose mb-6 font-bengali">
-                    আমরা প্রতিজ্ঞাবদ্ধ যে আমরা ভবিষ্যতেও আপনাদের সর্বোত্তম সেবা 
-                    প্রদান অব্যাহত রাখব। আমাদের প্রতি আস্থা রাখার জন্য আপনাদের 
+                    আমরা প্রতিজ্ঞাবদ্ধ যে আমরা ভবিষ্যতেও আপনাদের সর্বোত্তম সেবা
+                    প্রদান অব্যাহত রাখব। আমাদের প্রতি আস্থা রাখার জন্য আপনাদের
                     ধন্যবাদ।
                   </p>
 
                   <div className="border-t pt-4">
-                    <p className="text-lg md:text-xl font-bold text-gray-800">Md. [Name]</p>
-                    <p className="text-base font-bengali text-blue-600">ব্যবস্থাপনা পরিচালক</p>
-                    <p className="text-sm text-gray-500">Trishal Diagnostic & Eye Care Center</p>
+                    <p className="text-lg md:text-xl font-bold text-gray-800">
+                      সাইদুর রহমান সুমন
+                    </p>
+                    <p className="text-base font-bengali text-blue-600">
+                      ব্যবস্থাপনা পরিচালক
+                    </p>
+                    <p className="text-sm text-gray-500">
+                      ত্রিশাল ডায়াগনস্টিক এন্ড আই কেয়ার সেন্টার
+                    </p>
                   </div>
                 </div>
 
