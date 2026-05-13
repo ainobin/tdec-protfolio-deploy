@@ -75,7 +75,7 @@ const Navbar = () => {
             ))}
 
             <a
-              href="tel:+8801700000000"
+              href="tel:+8801797408590"
               className="bg-blue-600 text-white px-5 py-2 rounded-lg hover:bg-blue-700 transition font-medium"
             >
               📞 অ্যাপয়েন্টমেন্ট
@@ -129,7 +129,7 @@ const Navbar = () => {
           ))}
 
           <a
-            href="tel:+8801700000000"
+            href="tel:+8801797408590"
             className="mt-4 bg-blue-600 text-white py-3 rounded-lg text-center font-medium hover:bg-blue-700"
             onClick={() => setIsMenuOpen(false)}
           >

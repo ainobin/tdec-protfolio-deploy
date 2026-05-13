@@ -34,7 +34,7 @@ const Hero = () => {
           {/* Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="tel:+8801700000000"
+              href="tel:+8801797408590"
               className="bg-blue-600 text-white px-6 md:px-8 py-3 md:py-4 rounded-lg text-base md:text-lg font-semibold hover:bg-blue-700 transition shadow-lg"
             >
               📞 অ্যাপয়েন্টমেন্ট
