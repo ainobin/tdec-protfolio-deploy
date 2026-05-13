@@ -179,7 +179,7 @@ export default function AboutPage() {
                 <div className="lg:col-span-2 flex justify-center">
                   <div className="relative w-64 h-80 md:w-72 md:h-96 rounded-2xl overflow-hidden shadow-2xl">
                     <Image
-                      src="/images/logo/director.png;"
+                      src="/images/logo/director.png"
                       alt="Director"
                       fill
                       className="object-cover"
@@ -335,10 +335,10 @@ export default function AboutPage() {
                   <span className="text-3xl md:text-4xl">💙</span>
                 </div>
                 <h3 className="text-lg md:text-xl font-bold text-gray-800 mb-2">
-                  Compassion
+                  সহানুভূতি
                 </h3>
                 <p className="text-gray-600 text-sm md:text-base">
-                  We care deeply about our patients&apos; wellbeing
+                  আমরা রোগীদের সুস্থতা ও যত্নকে আন্তরিকভাবে গুরুত্ব দিই।
                 </p>
               </div>
 
@@ -347,10 +347,10 @@ export default function AboutPage() {
                   <span className="text-3xl md:text-4xl">🏆</span>
                 </div>
                 <h3 className="text-lg md:text-xl font-bold text-gray-800 mb-2">
-                  Excellence
+                  উৎকর্ষতা
                 </h3>
                 <p className="text-gray-600 text-sm md:text-base">
-                  We strive for the highest quality in everything
+                  আমরা সকল ক্ষেত্রে সর্বোচ্চ মান বজায় রাখার চেষ্টা করি।
                 </p>
               </div>
 
@@ -359,10 +359,10 @@ export default function AboutPage() {
                   <span className="text-3xl md:text-4xl">🤝</span>
                 </div>
                 <h3 className="text-lg md:text-xl font-bold text-gray-800 mb-2">
-                  Integrity
+                  সততা
                 </h3>
                 <p className="text-gray-600 text-sm md:text-base">
-                  We maintain honesty and ethical practices
+                  আমরা সবসময় সৎ ও নৈতিকতার সাথে কাজ করি।
                 </p>
               </div>
 
@@ -371,10 +371,10 @@ export default function AboutPage() {
                   <span className="text-3xl md:text-4xl">🔬</span>
                 </div>
                 <h3 className="text-lg md:text-xl font-bold text-gray-800 mb-2">
-                  Innovation
+                  নবপ্রবর্তন
                 </h3>
                 <p className="text-gray-600 text-sm md:text-base">
-                  We embrace cutting-edge technology
+                  আমরা আধুনিক ও উন্নত প্রযুক্তি ব্যবহার করি।
                 </p>
               </div>
             </div>
