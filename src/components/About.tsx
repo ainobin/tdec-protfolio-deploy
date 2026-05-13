@@ -56,18 +56,17 @@ const About = () => {
 
           {/* Content Side */}
           <div className="order-1 lg:order-2">
-
             <p className="text-base md:text-lg lg:text-xl text-gray-600 mb-5 md:mb-6 leading-relaxed wrap-break-word">
               Trishal Diagnostic and Eye Care Center has been serving the
-              community for over 15 years with dedication and excellence. We are
-              committed to providing world-class eye care services with
-              compassion and expertise.
+              community for over 5 years with dedication and excellence. We are
+              committed to providing quality diagnostic and eye care services
+              with compassion and expertise.
             </p>
 
             <p className="text-base md:text-lg text-gray-600 mb-6 md:mb-8 font-bengali leading-relaxed wrap-break-word">
-              ত্রিশাল ডায়াগনস্টিক এন্ড আই কেয়ার সেন্টার ১৫ বছরেরও বেশি সময়
-              ধরে নিবেদন এবং উৎকর্ষতার সাথে সম্প্রদায়ের সেবা করে আসছে। আমরা
-              সহানুভূতি এবং দক্ষতার সাথে বিশ্বমানের চক্ষু পরিচর্যা সেবা প্রদানে
+              ত্রিশাল ডায়াগনস্টিক অ্যান্ড আই কেয়ার সেন্টার গত ৫ বছর ধরে
+              নিষ্ঠার মাধ্যমে সেবা দিয়ে আসছে। আমরা দক্ষতার সাথে
+              মানসম্মত ডায়াগনস্টিক ও চোখের চিকিৎসা সেবা প্রদান করতে
               প্রতিশ্রুতিবদ্ধ।
             </p>
 

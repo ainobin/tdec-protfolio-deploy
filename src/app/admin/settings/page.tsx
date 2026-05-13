@@ -8,8 +8,8 @@ export default function SettingsPage() {
     nameBn: 'ত্রিশাল ডায়াগনস্টিক এন্ড আই কেয়ার সেন্টার',
     address: 'Trishal, Mymensingh, Bangladesh',
     addressBn: 'ত্রিশাল, ময়মনসিংহ, বাংলাদেশ',
-    phone: '+880 1234-567890',
-    email: 'info@trishaldecc.com',
+    phone: '+880 1797408590',
+    email: 'tdeccenter@gmail.com',
     openingHours: 'Saturday - Thursday: 9:00 AM - 8:00 PM',
     openingHoursBn: 'শনিবার - বৃহস্পতিবার: সকাল ৯টা - রাত ৮টা',
     emergencyContact: '+880 1234-567891',
@@ -23,7 +23,7 @@ export default function SettingsPage() {
     facebook: 'https://facebook.com/trishaldecc',
     twitter: 'https://twitter.com/trishaldecc',
     instagram: 'https://instagram.com/trishaldecc',
-    youtube: 'https://youtube.com/@trishaldecc',
+    youtube: 'https://www.youtube.com/@TrishalDiagnosticandEyeCareCen',
   });
 
   const [saved, setSaved] = useState(false);

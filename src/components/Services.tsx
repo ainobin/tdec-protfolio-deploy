@@ -55,7 +55,10 @@ const Services: React.FC<ServicesProps> = ({ limit, initialData }) => {
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-800 mb-3 md:mb-4 wrap-break-word overflow-wrap-anywhere">Our Services</h2>
           <p className="text-lg sm:text-xl md:text-2xl font-bengali text-gray-700 mb-3 md:mb-4 wrap-break-word overflow-wrap-anywhere">আমাদের সেবাসমূহ</p>
           <p className="text-sm md:text-base lg:text-lg text-gray-600 max-w-2xl mx-auto leading-relaxed wrap-break-word overflow-wrap-anywhere">
-            We provide comprehensive eye care services with state-of-the-art technology and expert medical professionals.
+            We offer complete diagnostic services with modern equipment and experienced professionals.
+          </p>
+          <p className="text-sm md:text-base lg:text-lg text-gray-600 max-w-2xl mx-auto leading-relaxed wrap-break-word overflow-wrap-anywhere">
+            আমরা আধুনিক যন্ত্রপাতি ও অভিজ্ঞ টেকনেশিয়ানের মাধ্যমে ডায়াগনস্টিক সেবা প্রদান করি।
           </p>
         </div>
 
