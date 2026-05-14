@@ -24,7 +24,7 @@ export const metadata = {
   description:
     "Professional eye care and diagnostic services in Trishal. Expert ophthalmologists, advanced equipment, and comprehensive eye health solutions.",
   keywords:
-    "eye care, diagnostic center, Trishal, ophthalmology, eye hospital, eye clinic",
+    "eye, eye care, diagnostic center, Trishal, ophthalmology, eye hospital, eye clinic, diagnostic services, eye health, vision care, eye exams, eye treatments, eye surgery, eye specialists, trishal, mymensingh",
   icons: {
     icon: "/images/logo/tdecc_logo_withBG.png",
   },
